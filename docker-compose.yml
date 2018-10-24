@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hackweek.web:
+    image: ${DOCKER_REGISTRY}hackweekweb
+    build:
+      context: .\HackWeek.Web\HackWeek.Web
+      dockerfile: Dockerfile
