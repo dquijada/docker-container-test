@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackWeek.Web", "HackWeek.Web\HackWeek.Web.csproj", "{546B7E35-8815-4F41-B6A4-7616F94CD0C0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6420D5AF-FE75-4002-9D0D-D1DC221A1AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546B7E35-8815-4F41-B6A4-7616F94CD0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546B7E35-8815-4F41-B6A4-7616F94CD0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546B7E35-8815-4F41-B6A4-7616F94CD0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546B7E35-8815-4F41-B6A4-7616F94CD0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6420D5AF-FE75-4002-9D0D-D1DC221A1AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6420D5AF-FE75-4002-9D0D-D1DC221A1AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6420D5AF-FE75-4002-9D0D-D1DC221A1AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6420D5AF-FE75-4002-9D0D-D1DC221A1AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD5E08B-1D91-4D5E-8AD5-0E5DB7297477}
+	EndGlobalSection
+EndGlobal
